@@ -4,7 +4,7 @@ We're going to implement,
   * Process Memory allocation
 
 TODO:
-  * none
+  * M_free function implementation
   
   <br>
 
@@ -14,6 +14,7 @@ TODO:
 <p><sub> >_기본적으로 memory를 할당하기위해서는 heap 공간을 원하는 만큼 늘려주고 줄여준다. 여기서 heap은 mapped region, unmapped region 그리고 unusable region의 공간이 있는데, mapped region안에 메모리 block들을 할당시켜주고, unmapped region과 mapped region의 경계를 말해주는 brk를 움직여주면서 mapped region 공간을 원하는 만큼 변경시켜주는 것이 이 과제의 주 목적이다. </sub></p>
 
 <br>
+
 ### > Preprocess about inputs
 
 > [main.c](https://github.com/Chokyungsun/2018OS_Assignment/blob/master/4_Implements%20your%20own%20shell/main.c)에 구현되어 있음.
