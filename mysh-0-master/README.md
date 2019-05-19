@@ -18,7 +18,7 @@ command들을 실행시키는 함수를 구현하는 것이다.
 
 ### > To parse commands.
 
-> [mysh-0-master/src/utils.c](mysh-0-master/src/utils.c) 에 구현되어 있음
+> [mysh-0-master/src/utils.c](https://github.com/Chokyungsun/2018OS_Assignment/blob/master/mysh-0-master/src/utils.c) 에 구현되어 있음
 ```C    
 //memory allocation
 *argc = 0;
@@ -37,7 +37,7 @@ while(temp_c != NULL){
 
 ### > To implement commands.
   
-  > [mysh-0-master/src/main.c](mysh-0-master/src/main.c) 에 구현되어 있음
+  > [mysh-0-master/src/main.c](https://github.com/Chokyungsun/2018OS_Assignment/blob/master/mysh-0-master/src/main.c) 에 구현되어 있음
   
 ```C
   apply_alias:
