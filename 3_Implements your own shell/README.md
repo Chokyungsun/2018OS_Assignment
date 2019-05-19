@@ -6,6 +6,8 @@ We're going to implement,
 
 TODO:
   * mythread_join function for main func waiting for finishing tid thread
+  
+  <br>
 
 ## Solution
 본 과제는 User-level threading을 구현한다. 라이브러리 형태로 1:n thread model을 구현하는 것이 목적이다.
@@ -72,15 +74,11 @@ void mythread_init(enum mythread_scheduling_policy policy)
   
  TODO: 
  
- * tick의 함수는 timer에 따라 불렀지만, while(1)을 주석 처리하면 tick 함수에서 빠져나오지 못하는 상황이 발생한다.
+ **while(1)** tick의 함수는 timer에 따라 불렀지만, while(1)을 주석 처리하면 tick 함수에서 빠져나오지 못하는 상황이 발생한다.
  
- * Tick 함수 구현 / nextTcb 함수 구현
-  
-      : Tick 함수의 경우 nextTcb()의 함수를 불러 Tcb의 tid를 불러서 scheduling 방식마다 scheduling을 해주는 영역이다. 이에 더해 nextTcb()도 scheduling방식에 따라 time quantum이 지났을 때 다음으로 불러야 하는 thread가 무엇인지 알려주는 함수이다.
+ **Tick 함수 구현 / nextTcb 함수 구현** Tick 함수의 경우 nextTcb()의 함수를 불러 Tcb의 tid를 불러서 scheduling 방식마다 scheduling을 해주는 영역이다. 이에 더해 nextTcb()도 scheduling방식에 따라 time quantum이 지났을 때 다음으로 불러야 하는 thread가 무엇인지 알려주는 함수이다.
 
-* mythread_join 함수
-
-    : 각 thread가 모두 끝날 때까지 main 함수가 기다려주는 함수
+**mythread_join 함수** 각 thread가 모두 끝날 때까지 main 함수가 기다려주는 함수
 
 
 
