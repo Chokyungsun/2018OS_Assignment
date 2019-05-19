@@ -42,12 +42,15 @@ void mythread_init(enum mythread_scheduling_policy policy)
   //while(1);
   
   ```
+  <br>
+  <br>
+
  
  <p align = "center">
-<img src=""  alt="Timer">
+<img src="https://github.com/Chokyungsun/2018OS_Assignment/blob/master/3_Implements%20your%20own%20shell/timer.PNG" width = "600">
 </p>
- 
- <p align = "center"> Timer </p>
+
+<p align = "center"> Timer </p>
   
   ```C
   void new_stub(void (*stub)(void*), void* args){
@@ -58,12 +61,13 @@ void mythread_init(enum mythread_scheduling_policy policy)
     printf("ERROR: swapcontext\n");
   }
   ```
-  
-<p align = "center">
-<img src=""  alt="Threads">
+  <br>
+ <p align = "center">
+<img src="https://github.com/Chokyungsun/2018OS_Assignment/blob/master/3_Implements%20your%20own%20shell/thread.PNG" width = "600">
 </p>
+<p align = "center"> Threads </p>
  
- <p align = "center"> Threads </p>
+ <br>
 
   
  TODO: 
