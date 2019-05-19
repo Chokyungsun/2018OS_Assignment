@@ -1,0 +1,30 @@
+e1)
+INPUT:
+3 F
+s Think like a man of action and act like man of thought.
+s Courage is very important. Like a muscle, it is strengthened by use.
+s Life is the art of drawing sufficient conclusions from insufficient premises.
+
+OUTPUT:
+0 56 Think like a man of action and act like man of thought.
+0 72 Courage is very important. Like a muscle, it is strengthened by use.
+0 80  Life is the art of drawing sufficient conclusions from insufficient premises.
+
+e2)
+INPUT:
+2 F
+s Think like a man of action and act like man of thought.
+f 0
+
+OUTPUT:
+
+
+e3)
+INPUT:
+2 F
+s Life is the art of drawing sufficient conclusions from insufficient premises.
+r 0 112
+
+OUTPUT:
+1 80
+0 112 Life is the art of drawing sufficient conclusions from insufficient premises.
