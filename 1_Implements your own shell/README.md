@@ -21,7 +21,8 @@ command들을 실행시키는 함수를 구현하는 것이다. <br>
 
 ### > To parse commands.
 
-> [1_Implements your own shell/src/utils.c](https://github.com/Chokyungsun/2018OS_Assignment/blob/master/1_Implements%20your%20own%20shell/src/utils.c) 에 구현되어 있음
+[utils.c](https://github.com/Chokyungsun/2018OS_Assignment/blob/master/1_Implements%20your%20own%20shell/src/utils.c) 에 구현되어 있음
+
 ```C    
 //memory allocation
 *argc = 0;
@@ -41,7 +42,7 @@ while(temp_c != NULL){
 
 ### > To implement commands.
   
-  > [1_Implements your own shell/src/main.c](https://github.com/Chokyungsun/2018OS_Assignment/blob/master/1_Implements%20your%20own%20shell/src/main.c) 에 구현되어 있음
+  [main.c](https://github.com/Chokyungsun/2018OS_Assignment/blob/master/1_Implements%20your%20own%20shell/src/main.c) 에 구현되어 있음
   
 ```C
   apply_alias:
@@ -69,7 +70,7 @@ while(temp_c != NULL){
  ```
 <br>
 
-> [1_Implements your own shell/src/commands.c](https://github.com/Chokyungsun/2018OS_Assignment/blob/master/1_Implements%20your%20own%20shell/src/commands.c) 에 구현되어 있음.
+[commands.c](https://github.com/Chokyungsun/2018OS_Assignment/blob/master/1_Implements%20your%20own%20shell/src/commands.c) 에 구현되어 있음.
 
 
 ```C
