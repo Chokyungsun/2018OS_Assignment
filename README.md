@@ -12,6 +12,8 @@
 <br>
 
 
+:point_right: It's assignments from OS class. The codes are not perfect.
+
 <h2> > The List</h2>
 
 **1_Implements your own shell** 
@@ -26,9 +28,6 @@ Scheduling ways are First-in First-out and Round robin. </p> <br>
 
 **4_Implements your own shell**
 <p>Implements Process Memory allocation. </p> <br>
-
-
-:point_right: It's assignments from OS class. The codes are not perfect.
 
 
 <h2> > TODO </h2>
