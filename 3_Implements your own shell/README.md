@@ -12,11 +12,11 @@ TODO:
 ## Solution
 본 과제는 User-level threading을 구현한다. 라이브러리 형태로 1:n thread model을 구현하는 것이 목적이다.
 
-Scheduling으로는 First-in First-out과 Round robin을 구현한다.
+Scheduling으로는 First-in First-out과 Round robin을 구현한다. 
 
 ### > User-level threading 
 
-> [3_Implements your own shell/lib/mythread.c](https://github.com/Chokyungsun/2018OS_Assignment/blob/master/3_Implements%20your%20own%20shell/lib/mythread.c)에 구현되어 있음.
+> [mythread.c](https://github.com/Chokyungsun/2018OS_Assignment/blob/master/3_Implements%20your%20own%20shell/lib/mythread.c)에 구현되어 있음.
 
 ```C
 void mythread_init(enum mythread_scheduling_policy policy)
@@ -47,12 +47,13 @@ void mythread_init(enum mythread_scheduling_policy policy)
   <br>
   <br>
 
- 
  <p align = "center">
+<sub> >_Timer </sub>
+ <br>
 <img src="https://github.com/Chokyungsun/2018OS_Assignment/blob/master/3_Implements%20your%20own%20shell/timer.PNG" width = "600">
 </p>
 
-<p align = "center"> Timer </p>
+
   
   ```C
   void new_stub(void (*stub)(void*), void* args){
@@ -65,14 +66,15 @@ void mythread_init(enum mythread_scheduling_policy policy)
   ```
   <br>
  <p align = "center">
+ <sub> >_Threads </sub>
+ <br>
 <img src="https://github.com/Chokyungsun/2018OS_Assignment/blob/master/3_Implements%20your%20own%20shell/thread.PNG" width = "600">
 </p>
-<p align = "center"> Threads </p>
  
  <br>
 
   
- ### > TODO
+ ## TODO
  
    **while(1)** 
  
