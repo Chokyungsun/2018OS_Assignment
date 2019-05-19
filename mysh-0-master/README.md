@@ -64,7 +64,7 @@ while(temp_c != NULL){
     
  ```
 
-> [mysh-0-master/src/commands.c](mysh-0-master/src/commands.c) 에 구현되어 있음.
+> [mysh-0-master/src/commands.c](https://github.com/Chokyungsun/2018OS_Assignment/blob/master/mysh-0-master/src/commands.c) 에 구현되어 있음.
 
 
 ```C
