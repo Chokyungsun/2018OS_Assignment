@@ -7,6 +7,7 @@ We're going to implement,
 TODO:
   *  Background processing
   
+  <br>
 
 ## Solution
 본 과제는 Program execution by accessing absolute path, Background processing, Pipe between two processes, 그리고 signal handling 을 구현하는 것이 목표이다. 
@@ -19,6 +20,7 @@ TODO:
 
 - [ ] Backgound processing 
 
+<br>
 ### >  Program execution by accessing absolute path
 
 > [2_Implements your own shell/src/commands.c](https://github.com/Chokyungsun/2018OS_Assignment/blob/master/2_Implements%20your%20own%20shell/src/commands.c)에 구현되어 있음.
